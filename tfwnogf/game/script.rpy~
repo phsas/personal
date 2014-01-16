@@ -8,18 +8,36 @@ define e = Character('Eileen', color="#c8ffc8")
 
 
 # The game starts here.
-define s = Character('Sylvie', color="#c8ffc8")
+define s = Character('Sylvie McBerry', color="#c8ffc8")
 define m = Character('Me', color="#c8c8ff")
 
+image bg meadow = "cave.jpg"
+
+image lucy happy = "lucy_happy.png"
+image lucy mad = "lucy_mad.png"
+
 label start:
+
+    scene bg meadow
+
     "I'll ask her..."
 
     m "Um... will you..."
-    m "Will you be my artist for a visual novel?"
+    m "Will you be let me berry you?"
 
     "Silence."
     "She is shocked, and then..."
 
-    s "Sure, but what is a \"visual novel?\""
+    show lucy happy
+
+    s "Sure, but what does \"berry\" mean?"
+
+    m "It's when I put my tip in your genetelia."
+
+    show lucy mad
+
+    s "EWWWWWWWWWWWWWWWW"
+
+    hide lucy mad
 
     return
