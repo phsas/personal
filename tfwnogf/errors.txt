@@ -1,0 +1,21 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 14: end of line expected.
+    e "Me" "Um... will you..."
+           ^
+
+File "game/script.rpy", line 15: end of line expected.
+    e "Me" "Will you be my artist for a visual novel?"
+           ^
+
+File "game/script.rpy", line 20: end of line expected.
+    e "Sylvie" "Sure, but what is a \"visual novel?\""
+               ^
+
+File "game/script.rpy", line 22: end of line expected.
+    e "Me" "It's a maymay."
+           ^
+
+Ren'Py Version: Ren'Py 6.16.5.525
